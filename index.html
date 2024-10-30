@@ -36,13 +36,13 @@
                 "linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)",
               mainBg: "rgb(30, 30, 30)",
               footerBg: "rgb(28, 28, 28)",
+              concept: "rgb(231, 193, 211)",
+              design: "rgb(239, 218, 110)",
+              vision: "rgb(164, 218, 195)",
+              planning: "rgb(119, 170, 234)",
             },
             fontFamily: {
               manrope: "manrope",
-            },
-            backgroundImage: {
-              banner:
-                "url('www.https://i.pinimg.com/originals/b1/2d/60/b12d60f0e77708c97cb54db1557e9e50.png')",
             },
           },
         },
@@ -154,7 +154,7 @@
     <!-- =========  MAIN  ======== -->
     <main class="bg-gray-200 py-20">
       <!--========= About Us =======-->
-      <section class="about-us pb-9 w-9/12 mx-auto relative">
+      <section class="about-us pb-9 w-11/12 mx-auto relative">
         <!-- vector image -->
         <div class="vector-img hidden lg:block absolute -left-10 -top-16 z-10">
           <img src="./assets/Vector.png" alt="" />
@@ -162,7 +162,7 @@
         <div
           class="about-us-content flex flex-col lg:flex-row items-center gap-5"
         >
-          <div class="about-text-content">
+          <div class="about-text-content text-center lg:text-left">
             <button class="btn">
               <i class="fa-solid fa-arrow-right"></i>
               About Us
@@ -208,6 +208,86 @@
           </div>
           <div class="about-img">
             <img src="./assets/Rectangle.png" alt="building" class="w-fit" />
+          </div>
+        </div>
+      </section>
+
+      <section class="works pb-9 w-11/12 mx-auto">
+        <div class="works-context text-center space-y-4">
+          <button class="btn">
+            <i class="fa-solid fa-arrow-right"></i>
+            How We Works
+          </button>
+          <h2 class="lg:text-5xl md:text-4xl text-2xl font-bold">
+            Our Works Process
+          </h2>
+          <p>
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <!-- ======== cards =======-->
+        <div
+          class="cards-list grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+        >
+          <div class="card card-compact bg-concept shadow-xl my-5">
+            <div class="pl-8 mt-3">
+              <img src="./assets/concept.png" alt="Concept" class="w-fit" />
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-title">Concept</h2>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+          <div class="card card-compact bg-design shadow-xl my-5">
+            <div class="pl-8 mt-3">
+              <img
+                src="./assets/flow-chart.png"
+                alt="Design Process"
+                class="w-fit"
+              />
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-title">Design Process</h2>
+              <p>
+                We have best of best home in hand . Just contact us to get your
+                sweet home.
+              </p>
+            </div>
+          </div>
+          <div class="card card-compact bg-vision shadow-xl my-5">
+            <div class="pl-8 mt-3">
+              <img src="./assets/vision.png" alt="Concept" class="w-fit" />
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-title">Supervision</h2>
+              <p>
+                We are so much dedicated to give you proper home in the city.
+              </p>
+            </div>
+          </div>
+          <div class="card card-compact bg-planning shadow-xl my-5">
+            <div class="pl-8 mt-3">
+              <img
+                src="./assets/budget-planning.png"
+                alt="Concept"
+                class="w-fit"
+              />
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-title">Budget Planning</h2>
+              <p>
+                We help people to rent in budget. We have all type of home at
+                your budget
+              </p>
+            </div>
           </div>
         </div>
       </section>
